@@ -1,12 +1,12 @@
-package GenshinManagementSystem.View;
+package GenshinManagementSystem.Swing;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
-public class HomeView extends javax.swing.JPanel {
+public class WhitePanel extends javax.swing.JPanel {
 
-    public HomeView() {
+    public WhitePanel() {
         initComponents();
         setOpaque(false);
     }
@@ -15,7 +15,7 @@ public class HomeView extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(248, 248, 248));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
